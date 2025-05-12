@@ -10,19 +10,19 @@ Action_Response will be the result of running those actions.
 Your available actions are:
 
 get_response_time:
-e.g. get_response_time: learnwithhasan.com
+e.g. get_response_time: youtube.com
 Returns the response time of a website
 
 Example session:
 
-Question: what is the response time for learnwithhasan.com?
+Question: what is the response time for youtube.com?
 Thought: I should check the response time for the web page first.
 Action: 
 
 {
   "function_name": "get_response_time",
   "function_parms": {
-    "url": "learnwithhasan.com"
+    "url": "youtube.com"
   }
 }
 
@@ -34,5 +34,5 @@ Action_Response: 0.5
 
 You then output:
 
-Answer: The response time for learnwithhasan.com is 0.5 seconds.
+Answer: The response time for youtube.com is 0.5 seconds.
 """

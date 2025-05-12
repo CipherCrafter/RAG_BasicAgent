@@ -23,7 +23,7 @@ available_actions = {
     "get_response_time": get_response_time
 }
 
-user_prompt = "What is the response time for learnwithhasan.com?"
+user_prompt = "What is the response time for youtube.com?"
 
 messages = [
     {"role": "system", "content": system_prompt},
